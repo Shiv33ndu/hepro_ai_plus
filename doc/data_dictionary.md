@@ -1,94 +1,135 @@
+# Student Dataset Dictionary
 
-# Student Dataset Dictionary 
+This document defines the schema, meaning, scale, and decision relevance of
+each feature used in the student mentoring dataset.
 
-- Column Name: `student_id`
+---
 
-  - Description: This a unique student identifier, it has no analytical meaning
-  - Example: S001 
-  - Scale : Categorical
+## `student_id`
+- **Description:** Unique identifier for each student. Used only for tracking and
+  reference; has no analytical or predictive meaning.
+- **Example:** S001
+- **Scale:** Categorical (ID)
 
-- Column Name: `age`
+---
 
-  - Description: This column has student's age
-  - Example: 20
-  - Scale: Numeric  
+## `age`
+- **Description:** Age of the student in years.
+- **Example:** 20
+- **Scale:** Numeric (integer)
 
+---
 
-- Column Name: `program`
+## `program`
+- **Description:** Academic program or discipline the student is pursuing.
+  Program context can influence academic pressure, skill expectations, and
+  career decision-making.
+- **Example:** B.Tech, MBA
+- **Scale:** Categorical
 
-  - Description: What discipline student is pursuing, program can directly impact career desicion making.
-  - Example: B.Tech, MBA etc.
-  - Scale: Categorical  
+---
 
-- Column Name: `semester`
+## `semester`
+- **Description:** Current stage of the academic program. Semester indicates
+  academic progression and contextual pressure—higher semesters often correlate
+  with increased academic load and career-related anxiety, while lower semesters
+  reflect exploration phases.
+- **Example:** 3, 5
+- **Scale:** Numeric (integer)
 
-  - Description: This shows the current progress of the program student pursuing, semester indicates **academic stage and pressure** *(Higher semester can mean Higher stress, career anxiety, Lower semester can mean exploration phase)*.
-  - Example: 3, 5.
-  - Scale: Numeric  
+---
 
-- Column Name: `gpa`
+## `gpa`
+- **Description:** Academic performance indicator summarizing overall academic
+  outcomes. GPA anchors academic risk assessment and is a primary input to the
+  **Academic Performance Score (APS)**.
+- **Example:** 6.5, 7.8
+- **Scale:** 0–10 (real-valued)
 
-  - Description: Student's academic performance indicator that shows how well student is doing academically. GPA anchors **academic risk**, used heavily in **Academic Performance Score (APS)**
-  - Example: 6.5, 7.8 etc.
-  - Scale: 0-10 real numbers  
+---
 
-- Column Name: `attendance`
+## `attendance`
+- **Description:** Percentage of classes attended. Attendance acts as a
+  **behavioral proxy** for engagement and discipline. Low attendance may signal
+  disengagement, stress, or external constraints, especially when combined with
+  other features.
+- **Example:** 85, 76.8
+- **Scale:** 0–100 (percentage)
 
-  - Description: Shows the participation of student in the chosen discipline as percentage out of totals days. Attendance is a **behavioral proxy**. Low attendance may signal: disengagement/stress/external constraints. This feature becomes defining in combination with other features. 
-  - Example: 85, 76.8 etc.
-  - Scale: 0-100 real numbers  
+---
 
-- Column Name: `assignment_completion`
+## `assignment_completion`
+- **Description:** Percentage of assigned coursework completed. This reflects the
+  student’s ability to apply learned concepts and is a strong indicator of
+  execution and follow-through.
+- **Example:** 85, 76.8
+- **Scale:** 0–100 (percentage)
 
-  - Description: Percentage of completed assignments out of total given assignments.
-  - Example: 85, 76.8 etc.
-  - Scale: 0-100 real numbers  
+---
 
-- Column Name: `stress_level`
+## `stress_level`
+- **Description:** Self-reported psychological stress level. Used to identify
+  burnout risk and prioritize wellness-focused interventions.
+- **Example:** 7
+- **Scale:** 1–10
 
-  - Description: Shows student's self reported psychological load. This is used to identify burnout risk and prioritize wellness interventions.
-  - Example: 7 etc.
-  - Scale: 1-10   
+---
 
-- Column Name: `sleep_hours`
+## `sleep_hours`
+- **Description:** Average number of hours the student sleeps per night. Sleep
+  duration is a key wellness indicator and is often inversely related to stress.
+- **Example:** 7
+- **Scale:** 0–10 (hours)
 
-  - Description: Student's average sleep time per night.
-  - Example: 7 etc.
-  - Scale: 0-10   
+---
 
-- Column Name: `mental_wellbeing`
+## `mental_wellbeing`
+- **Description:** Overall psychological wellbeing score capturing motivation,
+  emotional state, and day-to-day mental health.
+- **Example:** 7
+- **Scale:** 1–10
 
-  - Description: Student's indicator of overall psychological status, like how happy, motivated and determined student is in day-to-day life.
-  - Example: 7.
-  - Scale: 1-10   
+---
 
-- Column Name: `productivity_score`
+## `productivity_score`
+- **Description:** Composite indicator of time management and task execution.
+  Higher values indicate effective use of time and consistent work habits.
+  Typically inversely related to `distractions`.
+- **Example:** 7
+- **Scale:** 1–10
 
-  - Description: Reflects **time management & task execution**. This is inversely related to `distractions`
-  - Example: 7.
-  - Scale: 1-10   
+---
 
-- Column Name: `distractions`
+## `distractions`
+- **Description:** Degree of distraction or lack of focus. Higher values indicate
+  a negative outcome. Some features increase risk when high (e.g., stress,
+  distractions), while others increase risk when low (e.g., GPA, attendance).
+- **Example:** 5
+- **Scale:** 1–10
 
-  - Description: Student's distraction level (High value = negative outcome). Some features increase risk when high, others when low.
-  - Example: 5.
-  - Scale: 1-10   
+---
 
-- Column Name: `career_clarity`
+## `career_clarity`
+- **Description:** Degree of clarity regarding career goals and future direction.
+  Lower values represent uncertainty and signal a **mentoring opportunity** rather
+  than failure.
+- **Example:** 4
+- **Scale:** 1–10
 
-  - Description: How much clarity student has for his future endeavours and choices for career (Lower career clarity means a *mentoring opportunity*).
-  - Example: 4.
-  - Scale: 1-10   
+---
 
-- Column Name: `skill_readiness`
+## `skill_readiness`
+- **Description:** Job-readiness indicator reflecting practical skills and
+  employability. Skill readiness is not equivalent to GPA; students with strong
+  academic performance may still lack applied skills.
+- **Example:** 6
+- **Scale:** 1–10
 
-  - Description: This score shows how job prepared student is, whether he has all the relevant skillset needed for job or not. Skill readiness ≠ GPA. Good GPA student can have low readiness.
-  - Example: 6.
-  - Scale: 1-10   
+---
 
-- Column Name: `engagement_score`
-
-  - Description: This score shows how much engagement student makes with this platform. Engagement ≠ performance, Highly engaged students may still struggle academically.
-  - Example: 70.
-  - Scale: 1-100   
-
+## `engagement_score`
+- **Description:** Level of interaction with the mentoring platform (sessions,
+  check-ins, activities). Engagement does not directly imply academic success;
+  highly engaged students may still struggle academically.
+- **Example:** 70
+- **Scale:** 1–100
