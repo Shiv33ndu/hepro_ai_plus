@@ -4,10 +4,9 @@ import random
 
 from src.utils.helpers import sample_range
 
+
 # import student's archetypes and programs
 from src.utils.constants import ARCHETYPES, PROGRAMS
-
-
 
 def generate_student(student_id: int, archetype_name: str):
     """
@@ -54,12 +53,11 @@ def generate_student(student_id: int, archetype_name: str):
     )
 
     # productivity depends on assignment
-    student["productivity_score"] = max(
-        1,
-        int(
-            (student["assignment_completion"] / 20) - random.randint(0, 2)
-        )
+    base_productivity = student["assignment_completion"] / 12.5
+    student["productivity_score"] = int(
+        np.clip(base_productivity + random.uniform(-1, 1), 1, 10)
     )
+    
 
     # distraction inversely depends on productivity
     student["distractions"] = max(
