@@ -92,3 +92,13 @@ def generate_dataset(students_per_archetype: int=15):
             student_id += 1
 
     return pd.DataFrame(students)
+
+
+def main():
+    df = generate_dataset(students_per_archetype=25)
+    df.to_csv("././data/raw/students.csv", index=False)
+    print("students.csv generated successfully!")
+
+
+if __name__ == "__main__":
+    main()
