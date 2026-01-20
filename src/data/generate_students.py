@@ -10,6 +10,17 @@ from src.utils.constants import ARCHETYPES, PROGRAMS
 
 
 def generate_student(student_id: int, archetype_name: str):
+    """
+    generates single student data
+    
+    :param student_id: student id, unique identifier
+    :type student_id: int
+    :param archetype_name: student archetype
+    :type archetype_name: str
+
+    returns
+    student : dictionary of student data
+    """
     
     archetype = ARCHETYPES[archetype_name]
     programs = random.choice(list(PROGRAMS.keys()))
@@ -58,3 +69,26 @@ def generate_student(student_id: int, archetype_name: str):
 
 
     return student
+
+
+
+def generate_dataset(students_per_archetype: int=15):
+    """
+    generates realistic synthetic dataset
+    
+    :param students_per_archetype: No of students per archetypes
+    :type students_per_archetype: int
+
+    returns 
+    student dataframe containing (archetypes * students_per_archetypes) rows 
+    """
+
+    students = []
+    student_id = 1
+
+    for archetype in ARCHETYPES.keys():
+        for _ in range(students_per_archetype):
+            students.append(generate_student(student_id, archetype))
+            student_id += 1
+
+    return pd.DataFrame(students)
