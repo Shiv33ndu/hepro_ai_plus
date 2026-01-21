@@ -5,7 +5,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `student_id`
+## Column: `student_id`
 - **Description:** Unique identifier for each student. Used only for tracking and
   reference; has no analytical or predictive meaning.
 - **Example:** S001
