@@ -13,7 +13,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `age`
+### Column: `age`
 - **Description:** Age of the student in years.
 - **Example:** 20
 - **Scale:** Numeric (integer)
