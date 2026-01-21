@@ -29,7 +29,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## Column: `semester`
+### Column: `semester`
 - **Description:** Current stage of the academic program. Semester indicates
   academic progression and contextual pressure—higher semesters often correlate
   with increased academic load and career-related anxiety, while lower semesters
