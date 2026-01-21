@@ -20,7 +20,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `program`
+## Column: `program`
 - **Description:** Academic program or discipline the student is pursuing.
   Program context can influence academic pressure, skill expectations, and
   career decision-making.
