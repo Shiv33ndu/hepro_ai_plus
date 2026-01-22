@@ -48,7 +48,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `attendance`
+### Column: `attendance`
 - **Description:** Percentage of classes attended. Attendance acts as a
   **behavioral proxy** for engagement and discipline. Low attendance may signal
   disengagement, stress, or external constraints, especially when combined with
