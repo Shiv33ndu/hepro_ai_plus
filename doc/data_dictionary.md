@@ -39,7 +39,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `gpa`
+### Column: `gpa`
 - **Description:** Academic performance indicator summarizing overall academic
   outcomes. GPA anchors academic risk assessment and is a primary input to the
   **Academic Performance Score (APS)**.
