@@ -75,7 +75,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `sleep_hours`
+### Column: `sleep_hours`
 - **Description:** Average number of hours the student sleeps per night. Sleep
   duration is a key wellness indicator and is often inversely related to stress.
 - **Example:** 7
