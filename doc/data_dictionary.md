@@ -67,7 +67,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `stress_level`
+### Column: `stress_level`
 - **Description:** Self-reported psychological stress level. Used to identify
   burnout risk and prioritize wellness-focused interventions.
 - **Example:** 7
