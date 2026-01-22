@@ -58,7 +58,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `assignment_completion`
+### Column: `assignment_completion`
 - **Description:** Percentage of assigned coursework completed. This reflects the
   student’s ability to apply learned concepts and is a strong indicator of
   execution and follow-through.
