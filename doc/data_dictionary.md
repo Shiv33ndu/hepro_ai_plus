@@ -91,7 +91,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `productivity_score`
+### Column: `productivity_score`
 - **Description:** Composite indicator of time management and task execution.
   Higher values indicate effective use of time and consistent work habits.
   Typically inversely related to `distractions`.
@@ -100,7 +100,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `distractions`
+### Column: `distractions`
 - **Description:** Degree of distraction or lack of focus. Higher values indicate
   a negative outcome. Some features increase risk when high (e.g., stress,
   distractions), while others increase risk when low (e.g., GPA, attendance).
