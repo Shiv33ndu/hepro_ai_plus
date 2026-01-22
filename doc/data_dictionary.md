@@ -83,7 +83,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `mental_wellbeing`
+### Column: `mental_wellbeing`
 - **Description:** Overall psychological wellbeing score capturing motivation,
   emotional state, and day-to-day mental health.
 - **Example:** 7
