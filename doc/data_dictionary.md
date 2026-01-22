@@ -127,7 +127,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `engagement_score`
+### Column: `engagement_score`
 - **Description:** Level of interaction with the mentoring platform (sessions,
   check-ins, activities). Engagement does not directly imply academic success;
   highly engaged students may still struggle academically.
