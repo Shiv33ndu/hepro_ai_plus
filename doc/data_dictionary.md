@@ -109,7 +109,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `career_clarity`
+### Column: `career_clarity`
 - **Description:** Degree of clarity regarding career goals and future direction.
   Lower values represent uncertainty and signal a **mentoring opportunity** rather
   than failure.
@@ -118,7 +118,7 @@ each feature used in the student mentoring dataset.
 
 ---
 
-## `skill_readiness`
+### Column: `skill_readiness`
 - **Description:** Job-readiness indicator reflecting practical skills and
   employability. Skill readiness is not equivalent to GPA; students with strong
   academic performance may still lack applied skills.
