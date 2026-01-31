@@ -61,8 +61,6 @@ def test_career_score_medium():
         'skill_readiness': [6]
     })
 
-    crs = career_score(df)
-
-    print(crs)
+    crs = career_score(df).iloc[0]
 
     assert 60 <= crs <= 70
