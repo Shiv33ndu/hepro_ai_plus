@@ -73,9 +73,13 @@ def generate_student(student_id: int, archetype_name: str):
     )
 
 
+    if student["assignment_completion"] > 80 and student["engagement_score"] > 65:
+        base_skill += 2.0
+
     student["skill_readiness"] = int(
-        np.clip(base_skill + random.uniform(-1, 1), 1, 10)
+        np.clip(base_skill + random.uniform(-0.5, 1.0), 1, 10)
     )
+
 
     return student
 
@@ -104,7 +108,7 @@ def generate_dataset(students_per_archetype: int=15):
 
 
 def main():
-    df = generate_dataset(students_per_archetype=25)
+    df = generate_dataset(students_per_archetype=40)
     df.to_csv("././data/raw/students.csv", index=False)
     print("students.csv generated successfully!")
 
