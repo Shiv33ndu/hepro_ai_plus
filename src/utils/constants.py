@@ -35,7 +35,17 @@ ARCHETYPES = {
         "engagement_score": (30, 45),
         "stress_level": (1, 4),
         "career_clarity": (1, 3)
+    },
+
+    "balanced_high_performer": {
+    "gpa": (8.0, 9.5),
+    "attendance": (80, 95),
+    "assignment_completion": (85, 95),
+    "engagement_score": (70, 90),
+    "stress_level": (2, 4),
+    "career_clarity": (6, 9)
     }
+
 }
 
 
