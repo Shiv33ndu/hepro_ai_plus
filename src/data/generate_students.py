@@ -65,6 +65,17 @@ def generate_student(student_id: int, archetype_name: str):
         10 - student["productivity_score"] + random.randint(-1, 1)
     )
 
+    # skill readiness depends on assignment completion and engagement
+    base_skill = (
+    (student["assignment_completion"] / 20) * 0.6 +
+    (student["engagement_score"] / 20) * 0.3 +
+    (student["gpa"] / 10) * 0.1
+    )
+
+
+    student["skill_readiness"] = int(
+        np.clip(base_skill + random.uniform(-1, 1), 1, 10)
+    )
 
     return student
 
