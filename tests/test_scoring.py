@@ -2,6 +2,7 @@ import pandas as pd
 from src.scoring.academic_score import academic_score
 from src.scoring.wellness_score import wellness_score
 from src.scoring.productivity_score import productivity_time_management_score
+from src.scoring.career_score import career_score
 
 """
 Classification threshold 
@@ -49,6 +50,19 @@ def test_ptms_high_productivity():
 
     ptms = productivity_time_management_score(df).iloc[0]
 
-    print(ptms)
-
     assert ptms > 70
+
+
+
+# CRS scoring unit test
+def test_career_score_medium():
+    df = pd.DataFrame({
+        'career_clarity': [6],
+        'skill_readiness': [6]
+    })
+
+    crs = career_score(df)
+
+    print(crs)
+
+    assert 60 <= crs <= 70
