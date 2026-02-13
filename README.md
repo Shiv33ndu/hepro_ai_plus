@@ -119,5 +119,5 @@ Machine Learning Engineer Intern
 
 ---
 
-If you are a reviewer, start with [`doc/project_overview.md`](doc/data_dictionary.md) for a full system-level understanding.
+If you are a reviewer, start with [**`doc/project_overview.md`**](doc/data_dictionary.md) for a full system-level understanding.
 
