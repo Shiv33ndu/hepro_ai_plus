@@ -119,5 +119,5 @@ Machine Learning Engineer Intern
 
 ---
 
-If you are a mentor or reviewer, start with **`docs/project_overview.md`** for a full system-level understanding.
+If you are a mentor or reviewer, start with [`doc/project_overview.md`](doc/data_dictionary.md) for a full system-level understanding.
 
