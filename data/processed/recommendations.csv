@@ -1,0 +1,201 @@
+student_id,cluster,risk_category,mentor_id,mentor_name,mentor_expertise,intervention,assignment_status,alert
+S001,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S002,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S003,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S004,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S005,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S006,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S007,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S008,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S009,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S010,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S011,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S012,0,Yellow,M002,Ms. Kapoor,career,Career Direction,Assigend,False
+S013,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S014,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S015,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S016,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S017,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S018,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S019,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S020,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S021,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S022,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S023,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S024,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S025,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S026,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S027,0,Yellow,M001,Dr. Sharma,career,Career Direction,Assigend,False
+S028,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S029,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S030,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S031,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S032,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S033,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S034,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S035,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S036,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S037,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S038,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S039,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S040,0,Yellow,M005,Ms. Rao,career,Career Direction,Assigend,False
+S041,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S042,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S043,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S044,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S045,2,Yellow,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S046,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S047,2,Red,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S048,2,Yellow,M004,Dr. Sen,wellness,Wellness Stabilization,Assigend,True
+S049,2,Red,M005,Ms. Rao,wellness,Wellness Stabilization,Assigend,True
+S050,2,Yellow,M005,Ms. Rao,wellness,Wellness Stabilization,Assigend,True
+S051,2,Red,M005,Ms. Rao,wellness,Wellness Stabilization,Assigend,True
+S052,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S053,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S054,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S055,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S056,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S057,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S058,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S059,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S060,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S061,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S062,2,Red,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S063,2,Yellow,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S064,2,Yellow,M003,Mr. Iyer,wellness,Wellness Stabilization,Assigend,True
+S065,2,Yellow,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S066,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S067,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S068,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S069,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S070,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S071,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S072,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S073,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S074,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S075,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S076,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S077,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S078,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S079,2,Yellow,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S080,2,Red,,Pending Assignment,wellness,Wellness Stabilization,Pending,True
+S081,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S082,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S083,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S084,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S085,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S086,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S087,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S088,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S089,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S090,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S091,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S092,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S093,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S094,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S095,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S096,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S097,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S098,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S099,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S100,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S101,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S102,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S103,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S104,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S105,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S106,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S107,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S108,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S109,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S110,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S111,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S112,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S113,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S114,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S115,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S116,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S117,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S118,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S119,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S120,0,Yellow,,Pending Assignment,career,Career Direction,Pending,False
+S121,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S122,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S123,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S124,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S125,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S126,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S127,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S128,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S129,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S130,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S131,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S132,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S133,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S134,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S135,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S136,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S137,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S138,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S139,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S140,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S141,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S142,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S143,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S144,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S145,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S146,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S147,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S148,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S149,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S150,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S151,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S152,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S153,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S154,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S155,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S156,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S157,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S158,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S159,1,Red,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,True
+S160,1,Yellow,,Pending Assignment,career,Career Direction & Productivity Coaching,Pending,False
+S161,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S162,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S163,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S164,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S165,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S166,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S167,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S168,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S169,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S170,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S171,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S172,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S173,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S174,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S175,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S176,0,Green,,Pending Assignment,career,Career Direction,Pending,False
+S177,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S178,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S179,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S180,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S181,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S182,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S183,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S184,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S185,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S186,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S187,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S188,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S189,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S190,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S191,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S192,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S193,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S194,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S195,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S196,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S197,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S198,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S199,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
+S200,0,Blue,,Pending Assignment,career,Career Direction,Pending,False
