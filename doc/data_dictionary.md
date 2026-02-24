@@ -1,7 +1,13 @@
-# Student Dataset Dictionary
+# Data Dictionary - Datasets
 
-This document defines the schema, meaning, scale, and decision relevance of
-each feature used in the student mentoring dataset.
+This document explains Datasets and their features along with the relevance in decision making. 
+
+## Student Dataset Schema
+
+### Purpose 
+
+This defines the schema, meaning, scale, and decision relevance of each feature used in the student mentoring dataset.
+ 
 
 ---
 
@@ -135,3 +141,60 @@ each feature used in the student mentoring dataset.
 - **Scale:** 1–100
 
 ---
+
+## Mentor Dataset Scehma
+
+### Purpose 
+
+Represents available mentors, their expertise, capacity, and risk-level handling ability used for mentor-student matching.
+
+
+### Column: `mentor_id`
+- Description: Unique identifier for each mentor
+- Example: M001
+- Scale: Categorical
+
+---
+
+### Column: `name`
+- Description: Mentor's name
+- Example: Dr. Sharma
+- Scale: Categorical
+
+---
+
+### Column: `expertise`
+- Description: Primary mentoring specialization
+- Possible values: academic, career, wellness, productivity
+- Scale: Categorical
+
+---
+
+### Column: `max_capacity`
+- Description: Primary mentoring specialization
+- Possible values: academic, career, wellness, productivity
+- Scale: Categorical
+
+---
+
+### Column: `current_load`
+- Description: Number of students currently assigned to the mentor
+- Example: 10
+- Scale: Numeric
+
+---
+
+### Column: `availability_hours`
+- Description: Estimated weekly hours available for mentoring
+- Example: 15
+- Scale: Numeric
+
+---
+
+### Column: `priority_levels`
+- Description: Risk levels the mentor is trained to handle
+- Example: Blue;Yellow;Red
+- Scale: Categorical (multi-level)
+
+---
+
